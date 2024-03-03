@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Onest', sans-serif;
+}
+
+body{
+  height: 659px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(141, 141, 141));
+  background-repeat: no-repeat;
+  max-height: 100vh;
+}
+
+.card{
+  background-color: white;
+  width: 450px;
+  height: 600px;
+  border: 1px solid;
+  margin: 100px auto 50px;
+  border: solid 0px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 5px 5px 70px;
+
+}
+
+.card-content{
+  background-color: white;
+}
+
+.banner {
+  width: 450px;
+  height: 200px;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(173, 167, 167));
+  border-bottom: 5px solid transparent; 
+}
+
+.Logo{
+  width: 150px;
+  border: 6px solid white;
+  border-radius: 50%;
+  margin: -98px 150px 5px;
+}
+
+.title{
+  justify-content: center;
+  font-weight	:500;
+  margin: 4px 135px 10px;
+}
+
+.sub-title{
+  margin: 0px 165px ;
+}
+
+.descripcion{
+  margin: 30px 25px ;
+}
+
+.button{
+  margin:0px 150px ;
+  padding: 0.5em 1em;
+  align-items: center;
+  gap: 0 1rem;
+  font-weight: 600;
+  display: flex;
+  border: 2px solid;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  transition: transform 50ms ease-in-out;
+}
+.button:hover{
+  transition: 0.5s;
+  color: red;
+  fill:white;
+}
